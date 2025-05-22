@@ -31,6 +31,20 @@ This is the **Backend** for the Assessment Application built using **Node.js**, 
    git clone https://github.com/your-username/assessment-backend.git
    cd assessment-backend
 
+2. Install dependencies:
+
+   npm install
+
+
+3. Create a .env file:
+
+   MONGODB_URI=your_mongodb_connection_string
+   PORT=5001   
+
+4. Start the Server
+
+   npm start   
+
 ## API Endpoints
 - GET /api/questions
 Returns a list of questions.
